@@ -1,0 +1,49 @@
+#Info {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    top: -200px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background:#39b54a no-repeat center top;
+   border-color: #39b54a;
+   border-width: 10px;
+    z-index: 200;
+}
+
+    #Info:target {
+        display: block;
+    }
+
+.Close {
+    display: inline;
+    vertical-align: -6px;
+    border: 0px solid #39b54a;
+    color: #39b54a;
+    padding: 2px 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: rgba(192, 192, 192, 0.6);
+    font-size: 14pt;
+    cursor: pointer;
+    border-radius: 16px;
+    z-index: 201;
+}
+
+    .Close:hover {
+        background: rgba(192, 192, 192, 0.4);
+    }
+.Link-1 {
+    color:green;
+    position: absolute;
+    left: 656px;
+    top: 600px;
+    font-size: 22px;
+    font-family: Sans;
+}

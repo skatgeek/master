@@ -1,0 +1,31 @@
+#play {
+    position: absolute;  
+    left: 541px;
+    top: 560px;
+    padding: 10px;
+    background: #39b54a;
+    color: #fff;
+    width: 288px;
+ 
+}
+
+canvas {
+    position: absolute;
+    left: 535px;
+    top: 40px;
+}
+
+body {
+    
+    background: url(images/backgroundimage.jpg);
+    background-size: 100%;
+    
+}
+
+p {
+    position: absolute;
+    font-size: 14px;
+    top: 760px;  
+    margin-left: 86%;
+}
+
